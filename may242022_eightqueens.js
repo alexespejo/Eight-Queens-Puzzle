@@ -97,5 +97,5 @@ class Board {
   }
 }
 const board = new Board();
-// board.traverse();
-// console.log(board.getBoard());
+board.traverse();
+console.log(board.getBoard());
