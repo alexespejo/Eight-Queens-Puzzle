@@ -8,10 +8,10 @@ const buildBoard = (queens) => {
     board.push(childBoard);
   }
   const row = 0;
-  const column = Math.floor(Math.random() * 8);
-  if (queens >= 8) {
+  const column = Math.floor(Math.random() * 7);
+  if (queens >= 7) {
     board[column][row] = 1;
-    board[Math.floor(Math.random() * 8)][column] = 1;
+    board[Math.floor(Math.random() * 7)][column] = 1;
   }
 
   return board;
